@@ -10,6 +10,9 @@ body {
   background-color: #fff;
   margin: 0;
 }
+h2 {
+  margin: 0;
+}
 
 .container {
   width: 1110px;
@@ -29,7 +32,6 @@ body {
   font-weight: 900;
   color: #515151;
   padding-bottom: 70px;
-  margin: 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -186,12 +188,12 @@ NAV
   margin-right: 0px;
 }
 
-.site-nav {
+.site-nav__link {
   color: #0f0101;
 }
 
-.site-nav:hover,
-.site-nav:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: #1abc9c;
 }
 /* HERO */
@@ -268,6 +270,7 @@ NAV
 
 .about__list {
   display: flex;
+  justify-content: center;
 }
 
 .about__list-item {
